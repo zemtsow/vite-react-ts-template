@@ -8,7 +8,20 @@
 - i18n connected (will be in the future)
 ```
 
+# File structure
 
+```
+public
+src/
+    lib - *
+    pages - pages application
+    router - router application
+    types - typescript declarations
+    templates - most used components
+    utils - utils part of code
+    locale - i18n config
+    components - react components
+```
 
 
 # React + TypeScript + Vite

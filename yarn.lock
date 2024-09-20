@@ -185,6 +185,13 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.24.0"
 
+"@babel/runtime@^7.23.2":
+  version "7.25.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.25.6.tgz#9afc3289f7184d8d7f98b099884c26317b9264d2"
+  integrity sha512-VBj9MYyDb9tuLq7yzqjgzt6Q+IBQLrGZfdjOekyEirZPHxXWoTSGUTMrpsfi58Up73d13NfYLv8HT9vmznjzhQ==
+  dependencies:
+    regenerator-runtime "^0.14.0"
+
 "@babel/runtime@^7.23.9":
   version "7.24.1"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.1.tgz#431f9a794d173b53720e69a6464abc6f0e2a5c57"
@@ -654,14 +661,6 @@
   integrity sha512-0QcdGLddTERotCXo3VFlUSWO3ztraw8nZ6e3zJSgG7apwV5xt+pJUS8ewPBqT4NYB1optGLprNQzFleIY84u/g==
   dependencies:
     "@types/react" "*"
-
-"@types/react-lazy-load-image-component@^1.6.3":
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/@types/react-lazy-load-image-component/-/react-lazy-load-image-component-1.6.3.tgz#f5382f7925d9b8421ded31ac9b2d76985b80edb8"
-  integrity sha512-HsIsYz7yWWTh/bftdzGnijKD26JyofLRqM/RM80sxs7Gk13G83ew8R/ra2XzXuiZfjNEjAq/Va+NBHFF9ciwxA==
-  dependencies:
-    "@types/react" "*"
-    csstype "^3.0.2"
 
 "@types/react@*", "@types/react@^18.2.66":
   version "18.2.74"
@@ -1464,6 +1463,13 @@ html-parse-stringify@^3.0.1:
   integrity sha512-KknJ50kTInJ7qIScF3jeaFRpMpE8/lfiTdzf/twXyPBLAGrLRTmkz3AdTnKeh40X8k9L2fdYwEp/42WGXIRGcg==
   dependencies:
     void-elements "3.1.0"
+
+i18next@^23.15.1:
+  version "23.15.1"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.15.1.tgz#c50de337bf12ca5195e697cc0fbe5f32304871d9"
+  integrity sha512-wB4abZ3uK7EWodYisHl/asf8UYEhrI/vj/8aoSsrj/ZDxj4/UXPOa1KvFt1Fq5hkUHquNqwFlDprmjZ8iySgYA==
+  dependencies:
+    "@babel/runtime" "^7.23.2"
 
 ignore@^5.2.0, ignore@^5.2.4:
   version "5.3.1"
