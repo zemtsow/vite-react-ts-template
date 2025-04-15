@@ -1,9 +1,12 @@
 /** @type {import('tailwindcss').Config} */
+
+import typography from '@tailwindcss/typography'
+
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  ],  
   theme: {
     extend: {
       screens: {
@@ -16,14 +19,14 @@ export default {
       width: {
         "screen-break": "1920px"
       },
-      margin: {
-        "y-100": "100px 0"
+      spacing: {
+        '100': '100px'
       },
       padding: {
         "y-100": "100px 0"
       },
     },
   },
-  plugins: [],
+  plugins: [typography],
 }
 
